@@ -25,7 +25,7 @@ public class SecurityDemoApplication {
     @PostConstruct
     public void init() {
         Member user = new Member();
-        user.setUsername("sajacaros");
+        user.setUsername("user");
         user.setPassword("{noop}123");
         user.setRoles(List.of(Role.USER));
 

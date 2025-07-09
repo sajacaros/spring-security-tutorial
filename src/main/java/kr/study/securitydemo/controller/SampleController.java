@@ -14,18 +14,18 @@ public class SampleController {
         if(principal == null) {
             return "Hello, Spring Security";
         } else {
-            return "Welcome " + principal.getName();
+            return "Welcome, name : " + principal.getName();
         }
     }
 
     @GetMapping("/info")
     public String info() {
         Authentication auth = SecurityContextHolder.getContext().getAuthentication();
-        return "information page" + auth.getName();
+        return "information page, name : " + auth.getName();
     }
 
     @GetMapping("/dashboard")
     public String dashboard(Principal principal) {
-        return "Hi,  " + principal.getName();
+        return "dashboard page, name : " + principal.getName();
     }
 }
