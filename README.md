@@ -100,4 +100,4 @@ cd {Project Name}
 - spring security 인가하는 과정을 설명하시오.
 - https://docs.spring.io/spring-security/reference/servlet/authorization/architecture.html
 ## 미션4 - 실습
-- ADMIN이 `/info`에 접근가능하게 수정하시오. 단, 유저-권한 매핑테이블에 USER를 추가하진 마시오.
+- ADMIN이 `/info`에 접근가능하게 수정하시오. 단, 유저-권한 매핑테이블에 USER 권한을 추가로 설정하진 마시오.
